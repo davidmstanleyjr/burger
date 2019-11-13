@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>David's Burger App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 id="color-override">Eat this!!!</h1>
+            <br>
+            <h2 id="color-override">Lets make some burgers!</h2>
+            <panel>
+                <form class="create-form">
+                    <div class="form-group">
+                        <label for="newburger" id="color-override">New Burger:</label>
+                        <input type="text" id="newburger" name="burger">
+                        <button type="submit" class="btn btn-success" id="addburger"><span
+                                class="fa fa-thumbs-up"></span></button>
+                    </div>
+                </form>
+            </panel>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="lefthead"><strong>New Burgers</strong></div>
+                    <div class="panel-body">
+                        <ul>
+                            <span><strong> 1 - </strong></span>
+                            <button type="button" class="eatburger btn btn-warning" id="eatbutton" data-id="1"
+                                data-newDevoured=""><span class="fa fa-cutlery"></span></button>
+                            <hr>
+                            <span><strong> 2 - </strong></span>
+                            <button type="button" class="eatburger btn btn-warning" id="eatbutton" data-id="2"
+                                data-newDevoured=""><span class="fa fa-cutlery"></span></button>
+                            <hr>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="righthead"><strong>Devoured Burgers</strong></div>
+                    <div class="panel-body">
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/models/burger.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</body>
+
+</html>
