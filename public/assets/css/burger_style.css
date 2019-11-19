@@ -1,0 +1,16 @@
+.jumbotron {
+    background-image: url("/public/assets/images/goodburger.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+    .jumbotron > h1 {
+        font-family: 'Yeon Sung', cursive;
+    }
+    
+
+    #color-override {
+        color: #8E9ABF;
+    }
