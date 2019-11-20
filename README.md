@@ -11,18 +11,18 @@ Access the application through [this link] (https://still-reaches-77451.herokuap
 In order to use my burger app from your computer, you must follow the steps outlined below:
 
 **1. Clone my repo**
-git clone https://github.com/davidmstanleyjr/burger.git
+>git clone https://github.com/davidmstanleyjr/burger.git
 
 **2. Change directories into the folder**
-cd burger
+>cd burger
 
 **3. Install the NPM packages**
-Just type npm install
+>Just type npm install
 
 **4. Start the server from the command line**
-Just type node server.js
+>Just type node server.js
 
 # Technologies
-Express, Express handlebars and Mysql.
+>Express, Express handlebars and Mysql.
 
 **I hope you have fun with my app.**
