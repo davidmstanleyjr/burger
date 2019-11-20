@@ -4,6 +4,8 @@
     background-position: center;
     background-size: cover;
     margin-top: 10px;
+    background-size: 800px 300px;
+    background-color: #F2E313;
 }
 
     .jumbotron > h1 {
@@ -12,5 +14,33 @@
     
 
     #color-override {
-        color: #8E9ABF;
+        color: #1B1F53;
+    }
+
+    .panel-default {
+        font-family: 'Yeon Sung', cursive;
+        color: #1B1F53;
+    }
+
+    .form-group > label {
+        font-family: 'Yeon Sung', cursive;
+        color: #1B1F53;
+    }
+
+    body {
+        background-color: #E0F9F3;
+    }
+
+    #gif-1 {
+        border-radius: 100% 100% 100% 100%;
+        padding-left: 30px;
+        height: 200px;
+    }
+
+    #gif-2, #gif-3, #gif-4, #gif-5, #gif-6 {
+        border-radius: 100% 100% 100% 100%;
+        padding: 5px;
+        height: 200px;
+       
+      
     }
