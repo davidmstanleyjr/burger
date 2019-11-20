@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url("/public/assets/images/goodburger.jpg");
+    background-image: url("goodburger.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
