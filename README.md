@@ -25,4 +25,8 @@ In order to use my burger app from your computer, you must follow the steps outl
 # Technologies
 >Express, Express handlebars and Mysql.
 
+# Issues
+>The biggest issue I faced with this project was learning to use handlebars. Handlebars are very complicated and I had to get comfortable with this technology. 
+My JavaScript also didn't work at first but that is because my relative file path was messed up. 
+
 **I hope you have fun with my app.**
