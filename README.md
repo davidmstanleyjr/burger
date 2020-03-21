@@ -31,5 +31,5 @@ My JavaScript also didn't work at first but that is because my relative file pat
 
 **I hope you have fun with my app.**
 
-![Screenshot 1](images/snip1.PNG)
-![Screenshot 2](images/snip2.PNG)
+![Screenshot 1](public/assets/images/snip1.PNG)
+![Screenshot 2](public/assets/images/snip2.PNG)
