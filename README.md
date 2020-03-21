@@ -30,3 +30,6 @@ In order to use my burger app from your computer, you must follow the steps outl
 My JavaScript also didn't work at first but that is because my relative file path was messed up. 
 
 **I hope you have fun with my app.**
+
+![Screenshot 1](images/snip1.PNG)
+![Screenshot 2](images/snip2.PNG)
